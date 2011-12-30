@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- edited with XML Spy v2.5 NT  - http://www.xmlspy.com -->
+<schema version="0.3">
+  <table name="btPusherConfiguration">
+    <field name="pId" type="I">
+      <key/>
+      <unsigned/>
+      <autoincrement/>
+    </field>
+    <field name="appId"     type="C" size="255"/>
+    <field name="appKey"    type="C" size="255"/>
+		<field name="secretKey" type="C" size="255"/>
+	</table>
+</schema>
